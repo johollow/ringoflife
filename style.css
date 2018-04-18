@@ -1,0 +1,19 @@
+/*
+ Some colors (from brightest to darkest)
+  #B6B6BF
+  #6B6B82
+  #4D4D64
+   #303040 (page background)
+  #1E1E34
+  #13132C
+*/
+
+body{
+  background-color:#303040;
+  color: #B6B6BF;
+}
+
+h1{
+  color: #6B6B82;
+  text-shadow: 1px 1px 2px #13132C;
+}

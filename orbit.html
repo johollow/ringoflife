@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>N-Body</title>
+
+  <!--Tell the browser to get the stylesheet, which determines fonts
+      and text colors and stuff like that.-->
+  <link rel="stylesheet" href="style.css">
+
+  <!--Tell the browser to get some library code I found
+      See: https://www.createjs.com/-->
+  <script src="https://code.createjs.com/easeljs-0.8.2.min.js"></script>
+  <script src="https://code.createjs.com/preloadjs-0.6.2.min.js"></script>
+
+  <!--Tell the browser to get my main code file. (orbit.js)-->
+  <script src="orbit.js"></script>
+</head>
+
+<body onload="init();">
+
+	<h1>Orbit Simulation</h1>
+  <p>
+    This is an n-body simulation of gravitating objects in motion.
+  </p>
+  <canvas id="gameCanvas" width="500" height="300"></canvas>
+</body>
+</html>
